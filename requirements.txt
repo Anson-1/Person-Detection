@@ -1,15 +1,20 @@
-# Build essentials (these must be first)
-pip==23.3.1
-setuptools==68.2.2
-wheel==0.41.2
+--no-cache-dir
+--prefer-binary
 
-# Core dependencies
-streamlit==1.26.0
-numpy==1.24.0
-opencv-python-headless==4.8.0.74
-ultralytics==8.0.0
-supervision==0.1.0
+# Build dependencies
+pip>=23.0.1
+wheel>=0.38.4
+setuptools>=65.5.1
 
-# Additional build requirements
-distutils-precedence
-packaging>=23.0
+# Binary packages first
+numpy>=1.21.0
+opencv-python-headless>=4.8.0.74
+
+# Main packages
+streamlit>=1.26.0
+ultralytics>=8.0.0
+supervision>=0.1.0
+
+# Additional requirements
+protobuf>=3.20.0
+typing-extensions>=4.5.0
