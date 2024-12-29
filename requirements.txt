@@ -1,7 +1,14 @@
-ultralytics==8.0.0  # For YOLOv8 (adjust version if needed)
-opencv-python-headless==4.8.0.74  # For OpenCV (headless version for Streamlit)
-numpy==1.24.0  # For numerical operations
-supervision==0.1.0  # For annotations and detections
-streamlit==1.26.0  # For the Streamlit web app interface
-setuptools>=65.5.1  # Ensure setuptools is up-to-date
-pip>=24.3.1  # To upgrade pip to the latest version
+# Core dependencies
+streamlit==1.26.0
+ultralytics==8.0.0
+opencv-python-headless==4.8.0.74
+numpy==1.24.0
+supervision==0.1.0
+
+# Build dependencies
+setuptools>=65.5.1
+wheel>=0.40.0
+distutils-precedence
+
+# Additional dependencies for Python 3.12
+packaging>=23.0
