@@ -3,5 +3,5 @@ opencv-python-headless==4.8.0.74  # For OpenCV (headless version for Streamlit)
 numpy==1.24.0  # For numerical operations
 supervision==0.1.0  # For annotations and detections
 streamlit==1.26.0  # For the Streamlit web app interface
-setuptools>=58.0.0  # Ensure setuptools is up-to-date
+setuptools>=65.5.1  # Ensure setuptools is up-to-date
 pip>=24.3.1  # To upgrade pip to the latest version
