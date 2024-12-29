@@ -3,3 +3,4 @@ opencv-python-headless==4.8.0.74  # For OpenCV (headless version for compatibili
 numpy==1.24.0  # For numerical operations
 supervision==0.1.0  # For Detections and BoxAnnotator
 streamlit==1.26.0  # For the web app interface
+setuptools>=58.0.0  # Ensure setuptools is up-to-date for distutils
