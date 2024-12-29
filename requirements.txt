@@ -1,0 +1,5 @@
+ultralytics==8.0.0  # For YOLOv8 (adjust version if needed)
+opencv-python-headless==4.8.0.74  # For OpenCV (headless version for compatibility with Streamlit)
+numpy==1.24.0  # For numerical operations
+supervision==0.1.0  # For Detections and BoxAnnotator
+streamlit==1.26.0  # For the web app interface
